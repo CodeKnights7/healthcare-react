@@ -1,0 +1,120 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+nav{
+  background: #1c8ce2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.logname{
+  color: white;
+  padding-bottom: .1rem;
+}
+.logoutbutn{
+  padding: .4rem;
+  font-size: 1rem;
+  width: 4rem;
+  background-color: rgb(240, 7, 135);
+  color: white;
+  border: none;
+  border-radius: .3rem;
+  margin-left: .5rem;
+}
+.logname::before{
+  content: "Login as ";
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.head{
+  display: flex;
+  gap: 10px;
+  padding: .5rem;
+  align-items: center;
+  color: white;
+}
+
+.head > img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.detail{
+  display: flex;
+  align-items: center;
+}
+
+span.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+  
+}
+nav ul li a{
+  font-size:17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: wheat;
+}
+.wapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+nav ul li a:hover{
+  color: white;
+}
+.wapper h2{
+  padding: 0%;
+  margin: 30px;
+}
+.wapper p{
+  padding: 0px;
+  margin: 30px;
+}
+.homemain{
+  padding: 10px;
+}
+.marq{
+  background-color: skyblue;
+  color: black;
+}
+.last{
+  padding: 10px;
+}
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.last h2{
+  padding: 0%;
+  margin: 30px;
+}
+.last p{
+  padding: 0px;
+  margin: 30px;
+}
+
+
+.logname{
+  font-size: 1.2rem;
+  font-weight: 600;
+}

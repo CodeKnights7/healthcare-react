@@ -1,0 +1,52 @@
+.footer{
+    background-color: lightskyblue;
+    height: auto;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+
+  }
+  .row{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin: 20px 0;
+    position: relative;
+
+  }
+  .footer ul{
+    list-style-type: none;
+  }
+  .footer-col h4::before{
+    display: flex;
+    position: relative;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+  }
+  .intro{
+    color: white;
+  }
+
+  
+
+  
+
+
+
+
+
+
+
